@@ -1,0 +1,7 @@
+cat << 'EOF' > .gitignore
+.venv/
+*.gguf
+.DS_Store
+__pycache__/
+*.log
+EOF
